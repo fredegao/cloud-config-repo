@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+
+
+spring:
+  application:
+    name: product
+  datasource:
+    url: jdbc:mysql://localhost/colud
+    username: root
+    password: gaolingfei
+    driver-class-name: com.mysql.jdbc.Driver
