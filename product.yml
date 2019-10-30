@@ -12,3 +12,4 @@ spring:
     username: root
     password: gaolingfei
     driver-class-name: com.mysql.jdbc.Driver
+env: product
